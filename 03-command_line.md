@@ -20,7 +20,14 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > *pwd - print working directory
+*ls list files (-a all contents, -l long format, -t order by most recently modified)
+*cd change directory
+*mkdir make directory
+*touch make file
+*cp copy
+*mv move files or rename
+*rm remove file -r recursive, removes directory
 
 ---
 
