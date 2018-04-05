@@ -36,6 +36,12 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 * rm remove file -r recursive, removes directory
 
+* cat - outputs file content to terminal
+
+* > redirect output
+
+
+
 ---
 
 ### Q2.  List Files in Unix   
