@@ -38,7 +38,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 * cat - outputs file content to terminal
 
-* > redirect output
+* '>' redirect output or overwrite
+
+* '>>' - appends
+
+* '|' pipe command to command redirect
+
+
 
 
 
@@ -47,17 +53,15 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`  list directory contents
+`ls -a`   list all including hidden
+`ls -l`   longform
+`ls -lh`  longform and print sizes in human readable format
+`ls -lah`  list all, longform , and sizes in readable format
+`ls -t`  list contents and sort by date modified
+`ls -Glp` list color coded(?) longform, display directories with /
 
-'ls' lists files in directory
-'ls -a' lists all files including hidden ones
-'ls -l' lists files long format'
+
 
 ---
 
@@ -65,7 +69,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* 'ls -1'	Displays each entry on a line.
+* 'ls -t'	Displays newest files first
+* 'ls -m'	Displays the names as a comma-separated list.
+* 
+
 
 ---
 
@@ -73,7 +81,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs allows commands to accept standard input as arguments. 
+
+a common use would be with the find command to then perform another command on the results. for example:
+
+'find ... | xargs rm'
+
+removes whatever files that were found
 
  
 
